@@ -24,7 +24,7 @@ h1 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgb(245, 31, 106);
-    height: 30px;
+    height: 50px;
     text-align: center;
 }
 /* Span message */
