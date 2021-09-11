@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #4b4a4a;
+    font-family: 'Pacifico', cursive;
+}
+/* H1 - span */
+h1 {
+    text-align: center;
+    background-color: rgb(246, 84, 141);
+}
+#colorDisplay{
+    display: block;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+/* Div button */
+#stripe {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(245, 31, 106);
+    height: 30px;
+    text-align: center;
+}
+/* Span message */
+#message {
+    height: 100%;
+    width: 20%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    align-self: center;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+/* Button easy & hard */
+.selected {
+    background-color: #fa5a5a;
+}
+
+/* Buttons */
+button {
+    height: 100%;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f57b7b;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+}    
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+/* Div Colores */
+.square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: aqua;
+    margin: 5% 1%;
+    border-radius: 25px;
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(246, 84, 141);
+    text-align: center;
+}
+
+/* WEB RESPONSIVE */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #232323;
+    }   
+/* Div Colores */
+    .square {
+        float: left;
+        max-width: 30%;
+        height: 0;
+        padding-bottom: 30%;
+        background-color: aqua;
+        margin: 5% 1%;
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 415px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+        background-color: #232323;
+    }
+}
